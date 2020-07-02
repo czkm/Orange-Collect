@@ -24,7 +24,7 @@
     </div>
 
     <!-- 代码仓库 -->
-    <h3 class="demo-table-title">
+    <!-- <h3 class="demo-table-title">
       代码仓库
       <i class="iconfont icon-github-fill" style="margin: 0 10px;"></i>
     </h3>
@@ -39,25 +39,25 @@
         />
       </a>
       点个star支持一下吧~
-    </p>
+    </p> -->
 
     <!-- NPM安装 -->
     <h3 class="demo-table-title">NPM安装</h3>
     <p class="demo-introduction">推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。</p>
-    <p class="demo-introduction">
+    <!-- <p class="demo-introduction">
       <a
         href="https://www.npmjs.com/package/shn-vue-ui"
         target="_blank"
       >https://www.npmjs.com/package/shn-vue-ui</a>
-    </p>
-    <div class="demo-code-block">npm i shn-vue-ui -S</div>
+    </p> -->
+    <div class="demo-code-block">npm i OrangeUI -S</div>
 
     <!-- 快速上手 -->
     <h3 class="demo-table-title">快速上手</h3>
     <p class="demo-introduction">你可以在 main.js 中引入整个 shn-ui。</p>
     <div class="demo-code-block">
-      <p>import shnUI from 'shn-vue-ui'</p>
-      <p style="margin-top:20px">Vue.use(shnUI);</p>
+      <p>import OrangeUI from 'OrangeUI'</p>
+      <p style="margin-top:20px">Vue.use(OrangeUI);</p>
     </div>
 
     <!-- 常用动效 -->
@@ -68,7 +68,7 @@
 
     <!-- 开始使用 -->
     <h3 class="demo-table-title">开始使用</h3>
-    <p class="demo-introduction">至此，一个基于 Vue 安装了 Shn-ui插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
+    <p class="demo-introduction">至此，一个基于 Vue 安装了 OrangeUI插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
   </div>
 </template>
 

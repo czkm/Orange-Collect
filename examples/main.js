@@ -8,14 +8,14 @@ import '../util';
 
 import '../packages/theme/base.scss';
 
-import shnUI from '../packages/index'
+import OrangeUI from '../packages/index'
 
 import router from './router'
 
 Vue.config.productionTip = false
 Vue.use(VueHighlightJS) 
 
-Vue.use(shnUI)
+Vue.use(OrangeUI)
 
 new Vue({
   router,

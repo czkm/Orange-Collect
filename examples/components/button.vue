@@ -13,7 +13,7 @@
     </orange-anchor>
 
     <h3 class="demo-table-title" id="button-simple">基础用法</h3>
-
+    <orange-run-button>Success</orange-run-button>
     <!-- 基础用法DEMO -->
     <orange-demo-block :height="630" :title="'普通按钮'" id="button-Simple">
       <template v-slot:demo>
@@ -87,8 +87,6 @@
     <orange-demo-block :height="168" :title="'禁用'" id="button-disabled">
       <template v-slot:demo>
         <orange-button disabled>Default</orange-button>
-        <orange-run-button  >Success</orange-run-button>
-
         <orange-button disabled type="success">Success</orange-button>
         <orange-button disabled type="primary">Primary</orange-button>
         <orange-button disabled type="danger">Danger</orange-button>
