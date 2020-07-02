@@ -19,7 +19,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:czkm/Orange-ui.git master
-
+git pull origin master
+git push -u origin master
 cd -
 
