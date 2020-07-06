@@ -74,7 +74,7 @@
 
 <script>
 export default {
-  name: 'shn-installation',
+  name: 'installation',
   data() {
     return {}
   },

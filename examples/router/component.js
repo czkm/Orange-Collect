@@ -1,6 +1,8 @@
 import Installation from '../components/installation'
 import IconDemo from '../components/orange-icon.vue'
 import ButtonDemo from '../components/button.vue'
+import ButtonCollect from '../components/button-collect.vue'
+
 // import shnShadowDemo from '../components/shn-shadow-demo'
 
 // import shnInputDemo from '../components/shn-input-demo'
@@ -31,6 +33,23 @@ export default [{
         path: '/component/icon',
         name: 'IconDemo',
         component: IconDemo,
+        meta: {
+            title: '组件|ORANGE🍊-UI'
+        }
+    },
+    
+    {
+        path: '/component/button',
+        name: 'ButtonDemo',
+        component: ButtonDemo,
+        meta: {
+            title: '组件|ORANGE🍊-UI'
+        }
+    },
+    {
+        path: '/component/button-collect',
+        name: 'ButtonCollect',
+        component: ButtonCollect,
         meta: {
             title: '组件|ORANGE🍊-UI'
         }
@@ -74,14 +93,6 @@ export default [{
     //         title: '组件|ORANGE🍊-UI'
     //     }
     // },
-    {
-        path: '/component/button',
-        name: 'ButtonDemo',
-        component: ButtonDemo,
-        meta: {
-            title: '组件|ORANGE🍊-UI'
-        }
-    },
     // {
     //     path: '/component/shadow',
     //     name: 'shnShadowDemo',

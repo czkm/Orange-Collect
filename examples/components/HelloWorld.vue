@@ -55,6 +55,11 @@ export default {
               path: "#/component/button"
             },
             {
+              id: "002",
+              name: "Collect 收集",
+              path: "#/component/button-collect"
+            },
+            {
               id: "001",
               name: "Shadow 投影",
               path: "#/component/shadow"
