@@ -37,7 +37,7 @@ export default {
   // padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Small Font", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
@@ -48,16 +48,16 @@ export default {
   // left: 50%;
   margin-top: -5px;
   margin-left: -10px;
-  color: #363537;
-  border: 3px solid #363537;
+  color: #a7acb9;
+  border: 3px solid #427d97;
   border-radius: 24px;
-  background: #85cb33;
-  box-shadow: 0 0 0 #ed7d3a, 0 0 0 #ef2d56, 0 0 0 #2fbf71;
+  background: #e4f4f3;
+  box-shadow: 0 0 0 #addae0, 0 0 0 #7eb3c1, 0 0 0 #40707a;
   transition: all 0.15s ease-in;
   &:hover {
     margin-top: -12.5px;
     margin-left: -17.5px;
-    box-shadow: 5px 5px 0 #ed7d3a, 10px 10px 0 #ef2d56, 15px 15px 0 #2fbf71;
+    box-shadow: 5px 5px 0 #addae0, 10px 10px 0 #7eb3c1, 15px 15px 0 #40707a;
   }
 }
 

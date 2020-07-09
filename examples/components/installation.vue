@@ -13,13 +13,19 @@
     <div class="demo-tip">
       <p>
         该项目DEMO页面模仿
-        <span style="color:#ff0000;margin:0 5px;">Element-ui</span>页面开发
+        <span style="color:#ff0000;margin:0 5px;">Element-ui</span>页面开发,旨在收集有意思的相关组件
       </p>
       <p>
         <a
           href="https://element.eleme.io/#/zh-CN/component/installation"
           target="_blank"
         >https://element.eleme.io/#/zh-CN/component/installation</a>
+      </p>
+    </div>
+      <div class="demo-tip demo-success-tip">
+      <p>该项目配色由粥粥粥粥🥣🌈☁️提供</p>
+      <p>
+        <a href="zhouhongyun/" target="_blank">https://cn.vuejs.org/</a>
       </p>
     </div>
 
@@ -50,14 +56,14 @@
         target="_blank"
       >https://www.npmjs.com/package/shn-vue-ui</a>
     </p> -->
-    <div class="demo-code-block">npm i OrangeUI -S</div>
+    <div class="demo-code-block">npm i OrangeCollect -S</div>
 
     <!-- 快速上手 -->
     <h3 class="demo-table-title">快速上手</h3>
     <p class="demo-introduction">你可以在 main.js 中引入整个 shn-ui。</p>
     <div class="demo-code-block">
-      <p>import OrangeUI from 'OrangeUI'</p>
-      <p style="margin-top:20px">Vue.use(OrangeUI);</p>
+      <p>import OrangeCollect from 'OrangeCollect'</p>
+      <p style="margin-top:20px">Vue.use(OrangeCollect);</p>
     </div>
 
     <!-- 常用动效 -->
@@ -68,7 +74,7 @@
 
     <!-- 开始使用 -->
     <h3 class="demo-table-title">开始使用</h3>
-    <p class="demo-introduction">至此，一个基于 Vue 安装了 OrangeUI插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
+    <p class="demo-introduction">至此，一个基于 Vue 安装了 OrangeCollect插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
   </div>
 </template>
 

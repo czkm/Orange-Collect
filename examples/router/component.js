@@ -2,6 +2,7 @@ import Installation from '../components/installation'
 import IconDemo from '../components/orange-icon.vue'
 import ButtonDemo from '../components/button.vue'
 import ButtonCollect from '../components/button-collect.vue'
+import BaseComponent from '../components/basecomponent.vue'
 
 // import shnShadowDemo from '../components/shn-shadow-demo'
 
@@ -50,6 +51,14 @@ export default [{
         path: '/component/button-collect',
         name: 'ButtonCollect',
         component: ButtonCollect,
+        meta: {
+            title: '组件|ORANGE🍊-UI'
+        }
+    },
+    {
+        path: '/component/basecomponent',
+        name: 'BaseComponent',
+        component: BaseComponent,
         meta: {
             title: '组件|ORANGE🍊-UI'
         }

@@ -10,7 +10,7 @@ import orange_run_btn from './orange_run_btn'
 import orange_rocket_btn from './orange_rocket_btn'
 import orange_reflect_btn from './orange_reflect_btn'
 import orange_overlap_btn from './orange_overlap_btn'
-
+import orange_card from './orange_card'
 import orange_input from './orange_input'
 
 // 存储组件列表
@@ -26,7 +26,8 @@ const components = [
   orange_rocket_btn,
   orange_input,
   orange_reflect_btn,
-  orange_overlap_btn
+  orange_overlap_btn,
+  orange_card
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -56,5 +57,6 @@ export default {
   orange_rocket_btn,
   orange_input,
   orange_reflect_btn,
-  orange_overlap_btn
+  orange_overlap_btn,
+  orange_card
 }

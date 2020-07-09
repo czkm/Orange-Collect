@@ -2,7 +2,7 @@
   <div class="home">
     <div class="header">
       <div class="container">
-        <span class="title">ORANGE-UI</span>
+        <span class="title">Orange-Collect</span>
         <i class="iconfont org-icon-caishichang-" style="margin: 0 20px;font-size: 32px;"></i>
       </div>
     </div>
@@ -45,12 +45,13 @@ export default {
             { id: -2, name: "Icon 图标", path: "#/component/icon" }
           ]
         },
+      
         {
           title: "组件",
           li_data: [
             {
-              id: "000",
-              group: "通用",
+              id: "001",
+              group: "按钮",
               name: "Button 按钮",
               path: "#/component/button"
             },
@@ -59,114 +60,117 @@ export default {
               name: "Collect 收集",
               path: "#/component/button-collect"
             },
-            {
-              id: "001",
-              name: "Shadow 投影",
-              path: "#/component/shadow"
+             {
+              id: "003",
+              group: "基础组件",
+              name: "BaseComponent",
+              path: "#/component/basecomponent"
             },
-            {
-              id: "100",
-              group: "数据录入",
-              name: "Input 输入框",
-              path: "#/component/input"
-            },
-            {
-              id: "101",
-              name: "UploadImg 上传图片",
-              path: "#/component/uploadimg"
-            },
-            {
-              id: "102",
-              name: "DatePicker 日期选择器",
-              path: "#/component/date-picker"
-            },
-            {
-              id: "103",
-              name: "CountryPicker 国家选择器",
-              path: "#/component/country-picker"
-            },
-            {
-              id: "200",
-              group: "数据展示",
-              name: "Statistic 统计数值",
-              path: "#/component/statistic"
-            },
-            {
-              id: "201",
-              name: "ImgCard 图片卡片",
-              path: "#/component/img-card"
-            },
-            {
-              id: "202",
-              name: "ModelMask 模块蒙版",
-              path: "#/component/model-mask"
-            },
-            {
-              id: "300",
-              group: "其他",
-              name: "Collapse 折叠动画盒子",
-              path: "#/component/collapse"
-            },
-            {
-              id: "301",
-              name: "BackTop 回到顶部",
-              path: "#/component/backtop"
-            },
-            {
-              id: "302",
-              name: "FooterToolbar 底部工具栏",
-              path: "#/component/footertoolbar"
-            },
-            {
-              id: "303",
-              name: "Drawer 抽屉",
-              path: "#/component/drawer"
-            },
-            {
-              id: "304",
-              name: "Anchor 锚点",
-              path: "#/component/anchor"
-            },
-            {
-              id: "304",
-              name: "Divider 分割线",
-              path: "#/component/divider"
-            },
-            {
-              id: "306",
-              name: "MenuSimple 简单菜单",
-              path: "#/component/meunsimple"
-            },
-            {
-              id: "307",
-              name: "WidgetModal 可拖动模态框",
-              path: "#/component/widget-modal"
-            }
+           
+           
+            // {
+            //   id: "100",
+            //   group: "数据录入",
+            //   name: "Input 输入框",
+            //   path: "#/component/input"
+            // },
+            // {
+            //   id: "101",
+            //   name: "UploadImg 上传图片",
+            //   path: "#/component/uploadimg"
+            // },
+            // {
+            //   id: "102",
+            //   name: "DatePicker 日期选择器",
+            //   path: "#/component/date-picker"
+            // },
+            // {
+            //   id: "103",
+            //   name: "CountryPicker 国家选择器",
+            //   path: "#/component/country-picker"
+            // },
+            // {
+            //   id: "200",
+            //   group: "数据展示",
+            //   name: "Statistic 统计数值",
+            //   path: "#/component/statistic"
+            // },
+            // {
+            //   id: "201",
+            //   name: "ImgCard 图片卡片",
+            //   path: "#/component/img-card"
+            // },
+            // {
+            //   id: "202",
+            //   name: "ModelMask 模块蒙版",
+            //   path: "#/component/model-mask"
+            // },
+            // {
+            //   id: "300",
+            //   group: "其他",
+            //   name: "Collapse 折叠动画盒子",
+            //   path: "#/component/collapse"
+            // },
+            // {
+            //   id: "301",
+            //   name: "BackTop 回到顶部",
+            //   path: "#/component/backtop"
+            // },
+            // {
+            //   id: "302",
+            //   name: "FooterToolbar 底部工具栏",
+            //   path: "#/component/footertoolbar"
+            // },
+            // {
+            //   id: "303",
+            //   name: "Drawer 抽屉",
+            //   path: "#/component/drawer"
+            // },
+            // {
+            //   id: "304",
+            //   name: "Anchor 锚点",
+            //   path: "#/component/anchor"
+            // },
+            // {
+            //   id: "304",
+            //   name: "Divider 分割线",
+            //   path: "#/component/divider"
+            // },
+            // {
+            //   id: "306",
+            //   name: "MenuSimple 简单菜单",
+            //   path: "#/component/meunsimple"
+            // },
+            // {
+            //   id: "307",
+            //   name: "WidgetModal 可拖动模态框",
+            //   path: "#/component/widget-modal"
+            // }
           ]
         },
-        {
-          title: "网络实用插件",
-          li_data: [
-            { id: -99, name: "图片裁剪", path: "#/component/vue-cropper" },
-            {
-              id: -100,
-              name: "拖拽/缩放",
-              path: "#/component/vue-drag-resize"
-            },
-            { id: -101, name: "操作Cookies", path: "#/component/vue-cookies" },
-            { id: -102, name: "云词", path: "#/component/vue-word-cloud" },
-            {
-              id: -103,
-              name: "脉冲圆点",
-              path: "#/component/vue-status-indicator"
-            },
-            {
-              id: -104,
-              name: "Loading素材",
-              path: "#/component/epic-spinners"
-            }
-          ]
-        }
+        // {
+        //   title: "网络实用插件",
+        //   li_data: [
+        //     { id: -99, name: "图片裁剪", path: "#/component/vue-cropper" },
+        //     {
+        //       id: -100,
+        //       name: "拖拽/缩放",
+        //       path: "#/component/vue-drag-resize"
+        //     },
+        //     { id: -101, name: "操作Cookies", path: "#/component/vue-cookies" },
+        //     { id: -102, name: "云词", path: "#/component/vue-word-cloud" },
+        //     {
+        //       id: -103,
+        //       name: "脉冲圆点",
+        //       path: "#/component/vue-status-indicator"
+        //     },
+        //     {
+        //       id: -104,
+        //       name: "Loading素材",
+        //       path: "#/component/epic-spinners"
+        //     }
+        //   ]
+        // }
       ],
       sidebarHover: false
     };

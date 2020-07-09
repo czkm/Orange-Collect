@@ -16,8 +16,14 @@
     <orange-demo-block :height="100" :title="'Run按钮'" id="button-Run" introduction="点击切换奔跑🏃动作">
       <template v-slot:demo>
         <div class="codepadding">
-          <orange-run-button :active="active" @click="test()" />
-          <orange-run-button RunText="奔跑‍" IngText="奔跑中ing～" :active="active" @click="test()" />
+          <orange-run-button :active="Runactive" @click="runtest()" />
+          <orange-run-button
+            RunText="奔跑‍"
+            IngText="奔跑中ing～"
+            :active="Runactive"
+            @click="runtest()"
+          />
+          <orange-input placeholder="🏃‍♀️奔跑时间/秒" style="float:right" v-model="runinput" />
         </div>
       </template>
       <template v-slot:code>
@@ -115,8 +121,10 @@ export default {
   data() {
     return {
       input: "",
+      runinput: "",
+
+      Runactive: false,
       rockactive: false,
-      active: false,
       thead: ["参数", "说明", "类型", "可选值", "默认值", "支持组件"],
       // a: document.getElementById("router_view_box"),
       run: {
@@ -155,11 +163,11 @@ export default {
       api: [
         {
           parameter: "active",
-          description: "控制是否切换奔跑中状态🏃",
+          description: "控制是否切换奔跑中状态🏃/控制是🚀是否完成状态",
           dataTypes: "Boolean",
           optional: "true/false",
           default: "false",
-          support: "Run按钮"
+          support: "Run按钮/Rocket按钮"
         },
         {
           parameter: "RunText",
@@ -177,30 +185,31 @@ export default {
           default: "Ing",
           support: "Run按钮"
         },
-        {
-          parameter: "active",
-          description: "控制是🚀是否完成状态",
-          dataTypes: "Boolean",
-          optional: "true/false",
-          default: "false",
-          support: "Rocket按钮"
-        }
+      
       ]
     };
   },
 
   methods: {
     test() {
-      this.active = true;
       console.log("点击");
       // console.log(this.isactive);
+    },
+
+    runtest() {
+      // console.log("模拟请求结果");
+      this.Runactive = true;
+      setTimeout(() => {
+        this.Runactive = false;
+        // console.log("timeout", this.rockactive);
+      }, this.runinput * 1000 || 1000);
     },
     rocktest() {
       // console.log("模拟请求结果");
       setTimeout(() => {
         this.rockactive = true;
         // console.log("timeout", this.rockactive);
-      }, this.input * 1000);
+      }, this.input * 1000 || 1000);
     }
   }
 };
