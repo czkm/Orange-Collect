@@ -1,7 +1,7 @@
-const NODE_ENV = 'development' // 开发环境 打包doc
-// const NODE_ENV = 'lib' // 组件库 上传npm
+// const NODE_ENV = 'development' // 开发环境 打包doc
+const NODE_ENV = 'lib' // 组件库 上传npm
 
-// const components = require('./build/compontents.json');
+const components = require('./build/compontents.json');
 
 const baseConfig = {
   chainWebpack: config => {
@@ -45,7 +45,7 @@ const devConfig = {
 
 const buildConfig = {
   configureWebpack: {
-    // entry: components,
+    entry: components,
     output: {
       filename: '[name].js',
       libraryTarget: 'commonjs2',

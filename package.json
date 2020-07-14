@@ -1,13 +1,24 @@
 {
   "name": "orange_collect",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Collect some intersting button component",
+  "keyword": "button collect",
+  "main": "lib/orange_collect.umd.min.js",
+
+
+
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "lib": "vue-cli-service build --target lib --name orange_collect --dest lib packages/index.js"
 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:czkm/Orange-Collect.git"
   },
   "dependencies": {
     "core-js": "^3.6.5",

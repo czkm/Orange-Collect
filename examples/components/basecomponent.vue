@@ -6,8 +6,7 @@
     <orange-anchor>
       <orange-anchor-link href="card" title="card阴影" />
       <orange-anchor-link href="anchor" title="Rocket按钮" />
-      <orange-anchor-link href="button-Reflect" title="Reflect按钮" />
-      <orange-anchor-link href="button-overlap" title="Overlap按钮" />
+      <orange-anchor-link href="input" title="输入框" />
       <orange-anchor-link href="api" title="API" />
     </orange-anchor>
 

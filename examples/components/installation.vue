@@ -22,30 +22,30 @@
         >https://element.eleme.io/#/zh-CN/component/installation</a>
       </p>
     </div>
-      <div class="demo-tip demo-success-tip">
+      <!-- <div class="demo-tip demo-success-tip">
       <p>该项目配色由粥粥粥粥🥣🌈☁️提供</p>
       <p>
         <a href="zhouhongyun/" target="_blank">https://cn.vuejs.org/</a>
       </p>
-    </div>
+    </div> -->
 
     <!-- 代码仓库 -->
-    <!-- <h3 class="demo-table-title">
+    <h3 class="demo-table-title">
       代码仓库
       <i class="iconfont icon-github-fill" style="margin: 0 10px;"></i>
     </h3>
     <p class="demo-introduction">
       github代码仓库地址
-      <a href="https://github.com/ShnHz/shn-ui" target="_blank">
+      <a href="https://github.com/czkm/Orange-Collect" target="_blank">
         <img
           alt
           class="github-img"
-          href="https://github.com/ShnHz/shn-ui"
+          href="https://github.com/czkm/Orange-Collect"
           src="https://img.shields.io/github/stars/ShnHz/shn-ui.svg?style=social&label=Star&maxAge=2592000"
         />
       </a>
-      点个star支持一下吧~
-    </p> -->
+      <!-- 点个star支持一下吧~ -->
+    </p>
 
     <!-- NPM安装 -->
     <h3 class="demo-table-title">NPM安装</h3>

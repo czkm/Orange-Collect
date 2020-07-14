@@ -1,24 +1,31 @@
-# orange_ui
 
-## Project setup
-```
-npm install
-```
+## Welcome to orange_collect 🧘
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+旨在收集有意思的按钮或相关效果，并封装成组件📦
 ```
 
-### Compiles and minifies for production
+### How to used
+
 ```
-npm run build
+npm i OrangeCollect -S
 ```
 
-### Lints and fixes files
+在main.js 中
+
 ```
-npm run lint
+import OrangeCollect from 'orange_collect'
+Vue.use(OrangeCollect)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### doc
+
+See doc [doc](czkm.github.io/orange-ui/).
+
+### Github
+
+Give a ⭐️ if this project helped you!
+
+```
+https://github.com/czkm/Orange-Collect
+```
