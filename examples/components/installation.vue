@@ -22,12 +22,15 @@
         >https://element.eleme.io/#/zh-CN/component/installation</a>
       </p>
     </div>
-      <!-- <div class="demo-tip demo-success-tip">
-      <p>该项目配色由粥粥粥粥🥣🌈☁️提供</p>
-      <p>
-        <a href="zhouhongyun/" target="_blank">https://cn.vuejs.org/</a>
-      </p>
-    </div> -->
+    <div class="demo-tip demo-success-tip">
+      该项目配色由粥粥粥粥🥣🌈☁️提供
+      <a
+        href="https://www.zhihu.com/people/rather-be-6"
+        target="https://www.zhihu.com/people/rather-be-6"
+      >
+        <i class="iconfont org-icon-zhihu" style="margin: 0 20px;font-size: 26px;"></i>
+      </a>
+    </div>
 
     <!-- 代码仓库 -->
     <h3 class="demo-table-title">
@@ -36,13 +39,18 @@
     </h3>
     <p class="demo-introduction">
       github代码仓库地址
-      <a href="https://github.com/czkm/Orange-Collect" target="_blank">
-        <img
+      <a
+        href="https://github.com/czkm/Orange-Collect"
+        target="https://github.com/czkm/Orange-Collect"
+      >
+        <i class="iconfont org-icon-huaban88" style="margin: 0 20px;font-size: 26px;"></i>
+
+        <!-- <img
           alt
           class="github-img"
           href="https://github.com/czkm/Orange-Collect"
           src="https://img.shields.io/github/stars/ShnHz/shn-ui.svg?style=social&label=Star&maxAge=2592000"
-        />
+        />-->
       </a>
       <!-- 点个star支持一下吧~ -->
     </p>
@@ -55,7 +63,7 @@
         href="https://www.npmjs.com/package/shn-vue-ui"
         target="_blank"
       >https://www.npmjs.com/package/shn-vue-ui</a>
-    </p> -->
+    </p>-->
     <div class="demo-code-block">npm i OrangeCollect -S</div>
 
     <!-- 快速上手 -->
@@ -80,12 +88,12 @@
 
 <script>
 export default {
-  name: 'installation',
+  name: "installation",
   data() {
-    return {}
+    return {};
   },
   methods: {}
-}
+};
 </script>
 <style lang="scss">
 .github-img {
