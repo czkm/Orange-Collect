@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueHighlightJS from 'vue-highlightjs'
-import '../packages/theme/font/iconfont.css';
+import '../public/theme/font/iconfont.css';
+import '../public/theme/base.scss';
+
 import 'highlight.js/styles/atom-one-dark.css'
 
 import '../util';
 
-import '../packages/theme/base.scss';
 
 import OrangeUI from '../packages/index'
 

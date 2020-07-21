@@ -1,4 +1,5 @@
-// 导入颜色选择器组件
+import '../public/theme/font/iconfont.css';
+import '../public/theme/base.scss';
 import orange_btn from './orange_btn'
 import orange_anchor from './orange_anchor'
 import orange_anchor_link from './orange_anchor_link'
