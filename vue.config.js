@@ -23,7 +23,7 @@ const baseConfig = {
   //   loaderOptions: {
   //     // 给 sass-loader 传递选项
   //     sass: {
-  //       data: `@import "public/css/shn-vue-ui.scss";`
+  //       data: `@import "public/css/ui.scss";`
   //     }
   //   },
   // }
