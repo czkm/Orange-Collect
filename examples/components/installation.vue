@@ -68,7 +68,7 @@
 
     <!-- 快速上手 -->
     <h3 class="demo-table-title">快速上手</h3>
-    <p class="demo-introduction">你可以在 main.js 中引入整个 shn-ui。</p>
+    <p class="demo-introduction">你可以在 main.js 中引入整个 OrangeCollect。</p>
     <div class="demo-code-block">
       <p>import OrangeCollect from 'OrangeCollect'</p>
       <p style="margin-top:20px">Vue.use(OrangeCollect);</p>
