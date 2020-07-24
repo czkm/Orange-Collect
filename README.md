@@ -8,19 +8,21 @@
 ### How to used
 
 ```
-npm i OrangeCollect -S
+npm i orange_collect
 ```
 
 在main.js 中
 
 ```
-import OrangeCollect from 'orange_collect'
-Vue.use(OrangeCollect)
+import orange from 'orange_collect'
+import 'orange_collect/lib/orange_collect.css'
+
+Vue.use(orange)
 ```
 
 ### doc
 
-See doc [doc](czkm.github.io/orange-ui/).
+See doc [doc](https://czkm.github.io/Orange-Collect/).
 
 ### Github
 

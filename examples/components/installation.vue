@@ -64,14 +64,16 @@
         target="_blank"
       >https://www.npmjs.com/package/shn-vue-ui</a>
     </p>-->
-    <div class="demo-code-block">npm i OrangeCollect -S</div>
+    <div class="demo-code-block">npm i orange_collect</div>
 
     <!-- 快速上手 -->
     <h3 class="demo-table-title">快速上手</h3>
-    <p class="demo-introduction">你可以在 main.js 中引入整个 OrangeCollect。</p>
+    <p class="demo-introduction">你可以在 main.js 中引入整个 orange_collect。</p>
     <div class="demo-code-block">
-      <p>import OrangeCollect from 'OrangeCollect'</p>
-      <p style="margin-top:20px">Vue.use(OrangeCollect);</p>
+      <p>import orange_collect from 'orange_collect'</p>
+      <p>import 'orange_collect/lib/orange_collect.css'</p>
+
+      <p style="margin-top:20px">Vue.use(orange_collect);</p>
     </div>
 
     <!-- 常用动效 -->
@@ -82,7 +84,7 @@
 
     <!-- 开始使用 -->
     <h3 class="demo-table-title">开始使用</h3>
-    <p class="demo-introduction">至此，一个基于 Vue 安装了 OrangeCollect插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
+    <p class="demo-introduction">至此，一个基于 Vue 安装了 orange_collect插件 的开发环境已经搭建完毕。各个组件的使用方法请参阅它们各自的文档。</p>
   </div>
 </template>
 

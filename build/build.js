@@ -25,7 +25,7 @@ files.forEach(file => {
         let fileKey = transformStr3(file.replace('orange_', ''))
         // console.log(fileKey)
         json[fileKey] = `/Users/chenzhikun/project/GitHub/orange_ui/packages/${file}/index.js`;
-        // json[fileKey] = `D:/projects/shn/shn-ui/packages/${file}/index.js`;
+        // json[fileKey] = `D:/projects/orange_ui/packages/${file}/index.js`;
     }
 });
 
